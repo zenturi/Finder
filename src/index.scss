@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	background: #fff;
+	color: #000;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	main{
+		flex: 1 0 auto;
+	}
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Dosis', sans-serif;
+	}
+}
+footer{
+	flex: none;
+}
